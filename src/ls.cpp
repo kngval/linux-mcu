@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
       continue;
     }
 
-    std::cout << entry->d_name << " ";
+    std::cout << entry->d_name << "  ";
   }
   
   std::cout << std::endl;
